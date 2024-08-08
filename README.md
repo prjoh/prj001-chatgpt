@@ -1,7 +1,13 @@
 # [PRJ001] ChatGPT Game
 
-Source code of game project made entirely with ChatGPT.
+Source code of game project made entirely with ChatGPT. </br>
+Created using SDL2.
 
-A video of the project can be found [here](https://www.youtube.com/watch?v=r3oCTbiEV6Q).
+You can try playing the game [here.](https://prjoh.itch.io/chatgpt-shooter)
+
 
 ![capture](./capture.gif)
+
+# Development Video
+
+[How I Used ChatGPT to Make a Game from Scratch](https://youtu.be/r3oCTbiEV6Q)
