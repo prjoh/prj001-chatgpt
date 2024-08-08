@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FE578E6295F1DA200D1EAF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FE578E5295F1DA200D1EAF7 /* Assets.xcassets */; };
+		8FE578F3295F1DF800D1EAF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE578F2295F1DF800D1EAF7 /* main.cpp */; };
+		8FE578F5295F1E2400D1EAF7 /* res in Resources */ = {isa = PBXBuildFile; fileRef = 8FE578F4295F1E2400D1EAF7 /* res */; };
+		8FE94EDA2A25BD3600A37470 /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE94ED62A25BD3600A37470 /* SDL2_mixer.framework */; };
+		8FE94EDB2A25BD3600A37470 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE94ED72A25BD3600A37470 /* SDL2.framework */; };
+		8FE94EDC2A25BD3600A37470 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE94ED82A25BD3600A37470 /* SDL2_ttf.framework */; };
+		8FE94EDD2A25BD3600A37470 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE94ED92A25BD3600A37470 /* SDL2_image.framework */; };
+		8FF53DAE2A25BEC6000DFB7E /* SDL2_image.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE94ED92A25BD3600A37470 /* SDL2_image.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8FF53DAF2A25BEC6000DFB7E /* SDL2_mixer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE94ED62A25BD3600A37470 /* SDL2_mixer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8FF53DB02A25BEC6000DFB7E /* SDL2_ttf.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE94ED82A25BD3600A37470 /* SDL2_ttf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8FF53DB12A25BEC6000DFB7E /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE94ED72A25BD3600A37470 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8FE94ED52A25BBCE00A37470 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8FF53DAE2A25BEC6000DFB7E /* SDL2_image.framework in Embed Frameworks */,
+				8FF53DAF2A25BEC6000DFB7E /* SDL2_mixer.framework in Embed Frameworks */,
+				8FF53DB02A25BEC6000DFB7E /* SDL2_ttf.framework in Embed Frameworks */,
+				8FF53DB12A25BEC6000DFB7E /* SDL2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8FE578DC295F1D9F00D1EAF7 /* chatgpt-game-0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chatgpt-game-0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE578E5295F1DA200D1EAF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FE578EC295F1DA200D1EAF7 /* chatgpt_game_0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chatgpt_game_0.entitlements; sourceTree = "<group>"; };
+		8FE578F2295F1DF800D1EAF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FE578F4295F1E2400D1EAF7 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = "../../../CLionProjects/chatgpt-shooter/res"; sourceTree = "<group>"; };
+		8FE94ED62A25BD3600A37470 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_mixer.framework; sourceTree = "<group>"; };
+		8FE94ED72A25BD3600A37470 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
+		8FE94ED82A25BD3600A37470 /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_ttf.framework; sourceTree = "<group>"; };
+		8FE94ED92A25BD3600A37470 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_image.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FE578D9295F1D9F00D1EAF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE94EDA2A25BD3600A37470 /* SDL2_mixer.framework in Frameworks */,
+				8FE94EDB2A25BD3600A37470 /* SDL2.framework in Frameworks */,
+				8FE94EDC2A25BD3600A37470 /* SDL2_ttf.framework in Frameworks */,
+				8FE94EDD2A25BD3600A37470 /* SDL2_image.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FE578D3295F1D9F00D1EAF7 = {
+			isa = PBXGroup;
+			children = (
+				8FE578DE295F1D9F00D1EAF7 /* chatgpt-game-0 */,
+				8FE578DD295F1D9F00D1EAF7 /* Products */,
+				8FE578F6295F1EB500D1EAF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8FE578DD295F1D9F00D1EAF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FE578DC295F1D9F00D1EAF7 /* chatgpt-game-0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FE578DE295F1D9F00D1EAF7 /* chatgpt-game-0 */ = {
+			isa = PBXGroup;
+			children = (
+				8FE578F4295F1E2400D1EAF7 /* res */,
+				8FE578E5295F1DA200D1EAF7 /* Assets.xcassets */,
+				8FE578EC295F1DA200D1EAF7 /* chatgpt_game_0.entitlements */,
+				8FE578F2295F1DF800D1EAF7 /* main.cpp */,
+			);
+			path = "chatgpt-game-0";
+			sourceTree = "<group>";
+		};
+		8FE578F6295F1EB500D1EAF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FE94ED92A25BD3600A37470 /* SDL2_image.framework */,
+				8FE94ED62A25BD3600A37470 /* SDL2_mixer.framework */,
+				8FE94ED82A25BD3600A37470 /* SDL2_ttf.framework */,
+				8FE94ED72A25BD3600A37470 /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FE578DB295F1D9F00D1EAF7 /* chatgpt-game-0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE578EF295F1DA200D1EAF7 /* Build configuration list for PBXNativeTarget "chatgpt-game-0" */;
+			buildPhases = (
+				8FE578D8295F1D9F00D1EAF7 /* Sources */,
+				8FE578D9295F1D9F00D1EAF7 /* Frameworks */,
+				8FE578DA295F1D9F00D1EAF7 /* Resources */,
+				8FE94ED52A25BBCE00A37470 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chatgpt-game-0";
+			productName = "chatgpt-game-0";
+			productReference = 8FE578DC295F1D9F00D1EAF7 /* chatgpt-game-0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FE578D4295F1D9F00D1EAF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8FE578DB295F1D9F00D1EAF7 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8FE578D7295F1D9F00D1EAF7 /* Build configuration list for PBXProject "chatgpt-game-0" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FE578D3295F1D9F00D1EAF7;
+			productRefGroup = 8FE578DD295F1D9F00D1EAF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FE578DB295F1D9F00D1EAF7 /* chatgpt-game-0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FE578DA295F1D9F00D1EAF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE578E6295F1DA200D1EAF7 /* Assets.xcassets in Resources */,
+				8FE578F5295F1E2400D1EAF7 /* res in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FE578D8295F1D9F00D1EAF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE578F3295F1DF800D1EAF7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8FE578ED295F1DA200D1EAF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8FE578EE295F1DA200D1EAF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8FE578F0295F1DA200D1EAF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "chatgpt-game-0/chatgpt_game_0.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prjoh.chatgpt-game-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		8FE578F1295F1DA200D1EAF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "chatgpt-game-0/chatgpt_game_0.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prjoh.chatgpt-game-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FE578D7295F1D9F00D1EAF7 /* Build configuration list for PBXProject "chatgpt-game-0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE578ED295F1DA200D1EAF7 /* Debug */,
+				8FE578EE295F1DA200D1EAF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE578EF295F1DA200D1EAF7 /* Build configuration list for PBXNativeTarget "chatgpt-game-0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE578F0295F1DA200D1EAF7 /* Debug */,
+				8FE578F1295F1DA200D1EAF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FE578D4295F1D9F00D1EAF7 /* Project object */;
+}
